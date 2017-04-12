@@ -1,0 +1,12 @@
+[submodule "RadioSensorNETWebUI"]
+	path = RadioSensorNETWebUI
+	url = git@github.com:adaszek/RadioSensorNETWebUI.git
+[submodule "RadioSensorNETFirmware"]
+	path = RadioSensorNETFirmware
+	url = git@github.com:adaszek/RadioSensorNETFirmware.git
+[submodule "RadioSensorNETMQTTbridge"]
+	path = RadioSensorNETMQTTbridge
+	url = git@github.com:adaszek/RadioSensorNETMQTTbridge.git
+[submodule "RadioSensorNETWorkers"]
+	path = RadioSensorNETWorkers
+	url = git@github.com:adaszek/RadioSensorNETWorkers.git
