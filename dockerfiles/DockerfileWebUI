@@ -1,0 +1,15 @@
+FROM node:alpine
+RUN apk update && \
+    apk add git
+WORKDIR /opt
+RUN git clone https://github.com/adaszek/RadioSensorsNETWebUI.git webui
+WORKDIR /opt/webui
+RUN npm install
+RUN npm install -g nodemon
+WORKDIR /opt/webui/public
+RUN npm install
+WORKDIR /opt/webui
+CMD npm start
+
+EXPOSE 3000
+
