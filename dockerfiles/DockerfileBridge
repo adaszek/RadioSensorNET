@@ -1,0 +1,10 @@
+FROM python:alpine
+RUN apk update && \
+    apk add git
+RUN pip install redis
+RUN pip install paho-mqtt
+WORKDIR /opt
+RUN git clone https://github.com/adaszek/RadioSensorsNETMQTTBridge.git mqttbridge
+WORKDIR /opt/mqttbridge
+CMD python bridge.py
+
