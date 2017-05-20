@@ -7,3 +7,6 @@
 [submodule "RadioSensorsNETWorkers"]
 	path = RadioSensorsNETWorkers
 	url = git@github.com:adaszek/RadioSensorsNETWorkers.git
+[submodule "RadioSensorsNETHardware"]
+	path = RadioSensorsNETHardware
+	url = git@github.com:adaszek/RadioSensorsNETHardware.git
