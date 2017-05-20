@@ -1,6 +1,3 @@
-[submodule "RadioSensorsNETFirmware"]
-	path = RadioSensorsNETFirmware
-	url = git@github.com:adaszek/RadioSensorsNETFirmware.git
 [submodule "RadioSensorsNETWebUI"]
 	path = RadioSensorsNETWebUI
 	url = git@github.com:adaszek/RadioSensorsNETWebUI.git
